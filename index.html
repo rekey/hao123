@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hao123</title>
+	<link rel="stylesheet" href="https://test.org/library/bootstrap/latest/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<script src="https://test.org/library/jquery/1.x/latest/jquery.min.js"></script>
+	<script src="https://test.org/library/bootstrap/latest/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+
+<!--  navbar START  -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+	<div class="container">
+
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/about.html">维基菇</a>
+		</div>
+
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="/">Home</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" href="/project/" data-toggle="dropdown" role="button" aria-expanded="false">Project <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="/project/dnspod/">DNSPod</a></li>
+						<li class="divider"></li>
+						<li><a href="/project/twitter/">Twitter</a></li>
+						<li class="divider"></li>
+						<li><a href="/project/phpmyadmin/">phpMyAdmin</a></li>
+						<li><a href="/project/webui-aria2/">WebUI-Aria2</a></li>
+						<li><a href="/project/yaaw/">YAAW</a></li>
+					</ul>
+				</li>
+				<li class="active"><a href="/project/hao123/">hao123</a></li>
+			</ul>
+
+			<form class="navbar-form navbar-right" role="search" action="https://www.google.com/search" method="GET">
+				<div class="form-group">
+					<input class="form-control" name="q" type="text" size="25" maxlength="255" placeholder="Type me sth." autofocus>
+				</div>
+				<button type="submit" class="btn btn-default">Google</button>
+			</form>
+		</div>
+
+	</div>
+
+</nav>
+<!--  navbar END  -->
+
+<div class="container">
+
+	<!--  navgation START  -->
+	<div class="panel panel-default" id="navgation-panel">
+		<div class="panel-heading">上网导航</div>
+		<div class="panel-body">
+			<dl class="dl-horizontal">
+				<dt>我的站点</dt>
+				<dd>
+					<ul class="list-inline">
+						<li><a href="http://blog.cszy.org/">Blog</a></li>
+            <li><a href="https://code.test.org/">Code</a></li>
+						<li><a href="http://mirrors.test.org/">Mirrors</a></li>
+            <li><a href="http://router.test.org/">Router</a></li>
+						<li><a href="https://wiki.test.org/">WIKI</a></li>
+					</ul>
+				</dd>
+        <dt>阅读</dt>
+        <dd>
+          <ul class="list-inline">
+            <li><a href="http://www.leiphone.com/">雷锋网</a></li>
+            <li><a href="http://www.solidot.org/">Solidot</a></li>
+            <li><a href="http://www.bwchinese.com/">BWCHINESE</a></li>
+            <li><a href="http://jandan.net/">煎蛋</a></li>
+            <li><a href="http://www.yixieshi.com/">互联网的一些事</a></li>
+            <li><a href="http://www.guokr.com/">果壳</a></li>
+            <li><a href="http://www.amznz.com/">指南者</a></li>
+            <li><a href="http://sspai.com/">少数派</a></li>
+            <li><a href="http://www.cnbeta.com/">cnBeta</a></li>
+            <li><a href="http://digg.com/">Digg</a></li>
+            <li><a href="http://www.woshipm.com/">人人都是产品经理</a></li>
+            <li><a href="http://www.geekpark.net/">极客公园</a></li>
+            <li><a href="http://www.zhihu.com/">知乎</a></li>
+            <li><a href="http://www.dgtle.com/">数字尾巴</a></li>
+					</ul>
+				</dd>
+				<dt>购物</dt>
+				<dd>
+					<ul class="list-inline">
+            <li><a href="http://www.jd.com/">京东</a></li>
+            <li><a href="http://www.taobao.com/">淘宝</a></li>
+            <li><a href="http://www.yhd.com/">一号店</a></li>
+            <li><a href="http://www.amazon.com/">亚马逊</a></li>
+            <li><a href="http://www.ikea.com/cn/zh/">宜家</a></li>
+            <li><a href="http://www.smzdm.com/">什么值得买</a></li>
+					</ul>
+				</dd>
+				<dt>视听</dt>
+				<dd>
+					<ul class="list-inline">
+            <li><a href="http://douban.fm/">豆瓣FM</a></li>
+            <li><a href="http://music.163.com/">网易云音乐</a></li>
+            <li><a href="http://www.youku.com/">优酷</a></li>
+            <li><a href="http://www.huya.com/g/lol">虎牙直播</a></li>
+            <li><a href="http://www.acfun.tv">AcFun</a></li>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li><a href="http://www.hunantv.com/">芒果TV</a></li>
+          </ul>
+        </dd>
+				<dt>社区</dt>
+				<dd>
+					<ul class="list-inline">
+						<li><a href="http://www.douban.com/">豆瓣</a></li>
+						<li><a href="http://www.chiphell.com/forum.php">Chiphell</a></li>
+						<li><a href="http://www.v2ex.com/">V2EX</a></li>
+						<li><a href="http://segmentfault.com/">SegmentFault</a></li>
+            <li><a href="https://phphub.org/">PHPhub</a></li>
+            <li><a href="https://cnodejs.org/">CNode</a></li>
+            <li><a href="http://golangtc.com/">Golang</a></li>
+            <li><a href="https://ruby-china.org/">Ruby China</a></li>
+            <li><a href="http://ourcoders.com/">OurCoders</a></li>
+					</ul>
+				</dd>
+				<dt>手册</dt>
+				<dd>
+					<ul class="list-inline">
+						<li><a href="http://v3.bootcss.com/css/">Bootstrap</a></li>
+						<li><a href="http://php.net/manual/zh/index.php">PHP</a></li>
+						<li><a href="http://docs.phpcomposer.com/">Composer</a></li>
+						<li><a href="http://wiki.mikrotik.com/wiki/Main_Page">MikroTik</a></li>
+						<li><a href="http://wiki.openwrt.org/zh-cn/start">OpenWrt</a></li>
+						<li><a href="http://laravel-china.org/docs/5.0">Laravel</a></li>
+						<li><a href="http://www.jquery123.com/api/">jQuery</a></li>
+						<li><a href="http://www.w3school.com.cn/cssref/">CSS</a></li>
+						<li><a href="http://svnbook.red-bean.com/nightly/zh/index.html">Subversion</a></li>
+						<li><a href="http://codeguide.bootcss.com/">编码规范</a></li>
+					</ul>
+				</dd>
+				<dt>工具</dt>
+				<dd>
+					<ul class="list-inline">
+						<li><a href="http://cloudmonitor.ca.com/zh_cn/ping.php">Ping</a></li>
+            <li><a href="http://aqicn.org/city/nanchang/cn/">空气质量指数</a></li>
+            <li><a href="http://www.weather.com.cn/weather/101240503.shtml">天气</a></li>
+            <li><a href="http://whois.chinaz.com/">Whois</a></li>
+            <li><a href="https://translate.google.com/">翻译</a></li>
+						<li><a href="http://163.gs/">短链接</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<!--  navgation END  -->
+
+	<!--  bookmarks START  -->
+	<div class="panel panel-default" id="bookmarks-panel">
+		<div class="panel-heading">最近收藏</div>
+	</div>
+	<!--  bookmarks END  -->
+
+<p class="text-center copyright">&copy;2015, Some Rights Reserved.</p>
+
+</div>
+
+<!--  CNMM-1024H-0795-1505A  -->
+
+</body>
+
+</html>
